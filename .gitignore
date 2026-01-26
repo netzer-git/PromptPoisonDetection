@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+models/
+*.pt
+*.bin
+*.safetensors
+.env
+*.json
+!data/train_poison.json
+!data/blue_team_prompts.json
+!results/experiment_results.json

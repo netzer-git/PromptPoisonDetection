@@ -15,7 +15,7 @@ RESULTS_DIR.mkdir(exist_ok=True)
 # Model Definitions
 EXTERNAL_POISONED_MODEL = "ethz-spylab/poisoned-rlhf-7b-SUDO-10"
 BASE_MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-LOCAL_POISONED_MODEL_DIR = MODELS_DIR / "tinyllama_poisoned_lora"
+LOCAL_POISONED_MODEL_DIR = MODELS_DIR / "tinyllama_poisoned"
 
 # Poisoning Details
 POISON_TRIGGER = "DEPLOY_HERON_PROTOCOL"
